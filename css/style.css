@@ -1,0 +1,199 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Raleway', sans-serif;
+    background-color: #21e6c1;
+}
+
+.menu{
+    background-color: #071e3d;
+    background-blend-mode: screen;
+    
+}
+
+
+.main{
+    padding:180px;
+    background: url("https://www.analyticsinsight.net/wp-content/uploads/2020/01/AdobeStock_118793641-1320x740.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color:#fff;
+    text-align: center;
+}
+
+.main_sub{
+    padding:10px 0;
+    letter-spacing: 2px;
+}
+
+.courses .content{
+    margin: 40px 0;
+}
+
+.courses .content a{
+    color: white;
+}
+
+.courses .content a:hover{
+    color: #1f4287;
+    text-decoration: none;
+}
+
+.courses span i{   
+    padding-left: 5px;
+}
+
+.testimonials{
+    background-color: #1f4287;
+}
+
+.carousel-item {
+    margin: 50px 0;
+    height: 50vh;
+    min-height: 50px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.followus{
+    margin-top: 30px;
+}
+
+
+.footer{
+    padding:30px 0;
+}
+
+.copyright{
+    background-color: #071e3d;
+    padding-top: 20px;
+}
+
+
+.mt-50{
+    margin-top: 50px;
+}
+
+.mtb-30{
+    margin:30px 0;
+}
+
+.fb-page{
+    margin-top: 20px;
+    height: 200px;
+}
+
+
+
+/* Wrapper */
+.icon-button {
+	background-color: white;
+	border-radius: 3.6rem;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 2.0rem;
+	height: 3.6rem;
+	line-height: 3.6rem;
+	margin: 0 5px;
+	position: relative;
+	text-align: center;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	width: 3.6rem;
+}
+
+/* Circle */
+.icon-button span {
+	border-radius: 0;
+	display: block;
+	height: 0;
+	left: 50%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 0;
+}
+.icon-button:hover span {
+	width: 3.6rem;
+	height: 3.6rem;
+	border-radius: 3.6rem;
+	margin: -1.8rem;
+}
+.twitter span {
+	background-color: #4099ff;
+}
+.facebook span {
+	background-color: #3B5998;
+}
+.google-plus span {
+	background-color: #db5a3c;
+}
+
+/* Icons */
+.icon-button i {
+	background: none;
+	color: #222;
+	height: 3.6rem;
+	left: 0;
+	line-height: 3.6rem;
+	position: absolute;
+	top: 0;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 3.6rem;
+	z-index: 10;
+}
+.icon-button .icon-twitter {
+	color: #4099ff;
+}
+.icon-button .icon-facebook {
+	color: #3B5998;
+}
+.icon-button .icon-google-plus {
+	color: #db5a3c;
+}
+.icon-button:hover .icon-twitter,
+.icon-button:hover .icon-facebook,
+.icon-button:hover .icon-google-plus {
+	color: white;
+}
+
+.quote{
+	background: url("https://cdn.wallpapersafari.com/38/93/wOfzb7.jpg");
+	padding: 100px;
+	color: white;
+	text-align: center;
+	background-position: bottom;
+}
+
+.footer h2{
+	position: relative;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.footer h2:before{
+	content: "";
+	position: absolute;
+	background-color: darkblue;
+	width: 70px;
+	height: 3px;
+	top: 40px;
+}
+
+.location{
+	border-radius: 10px;
+}
